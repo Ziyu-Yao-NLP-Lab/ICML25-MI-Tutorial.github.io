@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="ICML 2025 Tutorial on Mechanistic Interpretability for Language Models">
+    <meta name="keywords" content="Mechanistic Interpretability">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ICML 2025 Tutorial on Mechanistic Interpretability for Language Models</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+
+
+    </script>
+
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="icon" href="./static/images/gmu.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script defer src="./static/js/fontawesome.all.min.js"></script>
+    <script src="./static/js/bulma-carousel.min.js"></script>
+    <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div class="navbar-menu">
+        <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+            <a class="navbar-item" href="https://github.com/Ziyu-Yao-NLP-Lab" target="_blank">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+            </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    More Research
+                </a>
+                <div class="navbar-dropdown">
+                    <a class="navbar-item" href="https://github.com/Ziyu-Yao-NLP-Lab" target="_blank">
+                        Ziyu Yao's NLP Lab at GMU
+                    </a>
+                    <a class="navbar-item" href="https://ziyu-yao-nlp-lab.github.io/MathVC-NSF.github.io/" target="_blank">
+                        MathVC NSF Project
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+
+<section class="hero">
+    <div class="hero-body">
+        <div class="container is-max-widescreen">
+            <div class="columns is-centered">
+                <div class="column has-text-centered">
+                    <h1 class="title is-1 publication-title">ICML 2025 Tutorial on Mechanistic Interpretability for Language Models</h1>
+                    <div class="is-size-5 publication-authors">
+                        <span class="author-block">
+                            <a href="http://ziyuyao.org">Ziyu Yao</a>, <a href="https://dakingrai.github.io/">Daking Rai</a>
+                        </span>
+                        <br>
+                        <b>Department of Computer Science, George Mason University</b>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container is-max-desktop">
+        <!-- Abstract. -->
+        <div class="columns is-centered">
+            <!-- <div class="column is-four-fifths"> -->
+                <!--         <h2 class="title is-3">Abstract</h2> -->
+                <!-- <div class="content has-text-justified"> -->
+                    <span style="font-weight:bold">
+                    Mechanistic interpretability (MI) is an emerging sub-field of interpretability that seeks to understand a neural network model by reverse-engineering its internal computations. Recently, MI has garnered significant attention for interpreting transformer-based language models (LMs), resulting in many novel insights yet introducing new challenges. Given how fast this topic is now attracting the ML/AI community's attention, the goal of this tutorial is to provide a comprehensive overview of MI for LMs, including its historical contexts, the various techniques to implement and evaluate MI, findings and applications based on MI, and future challenges. The tutorial will be particularly presented following a <b>Beginner's Roadmap to MI</b> that the presenters carefully curated, aiming to enable researchers new to MI to quickly pick up this field and leverage MI techniques in their LM applications.
+                    <br><br>
+                    This tutorial follows the outline of our survey paper. If you find it helpful, please cite the work:
+                    <div class="container is-max-desktop content">
+                        <pre><code>
+@article{rai2024practical,
+    title={A practical review of mechanistic interpretability for transformer-based language models},
+    author={Rai, Daking and Zhou, Yilun and Feng, Shi and Saparov, Abulhair and Yao, Ziyu},
+    journal={arXiv preprint arXiv:2407.02646},
+    year={2024}
+    }
+                        </code></pre>
+                    </div>
+                    </span>
+                <!-- </div> -->
+            <!-- </div> -->
+        </div>
+        <!--/ Abstract. -->
+</section>
+
+
+<section class="section" id="Schedule">
+    <div class="container is-max-desktop content">
+        <h2 class="title">Schedule</h2>
+        Coming soon!
+    </div>
+</section>
+
+
+
+<section class="section" id="Presenters">
+    <div class="container is-max-desktop content">
+        <h2 class="title">Presenters</h2>
+        
+        <!-- Faculty Members -->
+        <div class="columns is-multiline">
+        <!-- Faculty Member 1 -->
+        <div class="column is-one-third">
+            <div class="card">
+            <div class="card-image">
+                <figure class="image">
+                <img src="./static/images/ziyu.jpeg" alt="Ziyu Yao">
+                </figure>
+            </div>
+            <div class="card-content">
+                <p class="title is-5"><a href="https://ziyuyao.org/">Dr. Ziyu Yao</a></p>
+                <p class="subtitle is-6">Assistant Professor, GMU CS</p>
+            </div>
+            </div>
+        </div>
+        
+        <!-- Faculty Member 2 -->
+        <div class="column is-one-third">
+            <div class="card">
+            <div class="card-image">
+                <figure class="image">
+                <img src="./static/images/DakingRai.jpg" alt="Daking Rai">
+                </figure>
+            </div>
+            <div class="card-content">
+                <p class="title is-5"><a href="https://dakingrai.github.io/">Daking Rai</a></p>
+                <p class="subtitle is-6">PhD Student, GMU CS</p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section" id="Acknowledge">
+    <div class="container is-max-desktop content">
+        <h2 class="title">Acknowledge</h2>
+
+        <div class="sponsor-logos">
+            <a href="https://www.nsf.gov/" target="_blank">
+              <img src="./static/images/NSF.png" alt="NSF">
+            </a>
+            <a href="https://www.gmu.edu/" target="_blank">
+              <img src="./static/images/GMU.png" alt="George Mason University">
+            </a>
+          </div>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+                    <p>
+                        This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+                    </p>
+                    <p>
+                        This means you are free to borrow the <a href="https://github.com/Ziyu-Yao-NLP-Lab/ICML25-MI-Tutorial.github.io">source code</a> (initially <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>) of this website, we just ask that you link back to this page in the footer. Please remember to remove the analytics code included in the header of the website which you do not want on your website.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
